@@ -56,19 +56,24 @@ In machine learning (ML) and deep learning, the choice of loss function depends 
 Classification:
 
 Binary Cross-Entropy Loss (Log Loss): Used for binary classification tasks. It measures the difference between two probability distributions, typically the predicted probabilities and the true labels.
+
 Categorical Cross-Entropy Loss: Used for multi-class classification tasks. It calculates the difference between predicted class probabilities and true class labels.
+
 Sparse Categorical Cross-Entropy Loss: Similar to categorical cross-entropy but designed for cases where the true labels are integers instead of one-hot encoded vectors.
+
 Hinge Loss: Commonly used in SVM (Support Vector Machine) classifiers. It encourages correct classification of examples by maximizing the margin between classes.
 Sigmoid Cross-Entropy Loss: Used for multi-label classification tasks where each example can belong to multiple classes.
-Regression:
 
+Regression:
 Mean Squared Error (MSE) Loss: Used for regression tasks. It measures the average squared difference between predicted and true values.
 Mean Absolute Error (MAE) Loss: Another regression loss function that measures the average absolute difference between predicted and true values.
+
 Huber Loss: A combination of MSE and MAE, providing a balance between robustness to outliers and convergence speed.
 Smooth L1 Loss: Similar to Huber Loss but with a different formulation, commonly used in object detection tasks.
-Generative Modeling:
 
+Generative Modeling:
 Negative Log Likelihood Loss: Used in probabilistic generative models such as variational autoencoders (VAEs) and generative adversarial networks (GANs) to estimate the likelihood of generating the observed data.
+
 Kullback-Leibler Divergence Loss: Used in variational autoencoders (VAEs) to measure the difference between the learned latent distribution and a prior distribution.
 These are just a few examples, and there are many other loss functions tailored for specific tasks or scenarios in ML and deep learning. The choice of loss function depends on factors such as the nature of the problem, the desired properties of the model, and the characteristics of the dataset.
 
